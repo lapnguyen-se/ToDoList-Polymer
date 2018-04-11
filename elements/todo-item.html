@@ -1,0 +1,30 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-checkbox/paper-checkbox.html">
+
+<dom-module id="todo-item">
+
+    <template>
+        <style>
+            .item {
+                padding: 10px;
+                background-color: lightgray;
+                margin: 5px 0;
+                border-radius: 4px;
+            }
+        </style>
+
+
+        <div class="item">
+            <paper-checkbox checked="{{todo.done}}">
+                {{todo.name}}
+            </paper-checkbox>
+        </div>
+
+
+    </template>
+    <script>
+        Polymer({
+            is: 'todo-item'
+        })
+    </script>
+</dom-module>

@@ -1,0 +1,38 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="todo-data">
+    <script>
+        Polymer({
+            is: 'todo-data',
+            properties: {
+                todos: {
+                    notify: true,
+                    value: function () {
+                        return [
+                            {
+                                name: 'Complete OnTrack tasks',
+                                done: false,
+                                archive: false
+                            },
+                            {
+                                name: 'Learn Polymer',
+                                done: false,
+                                archive: false
+                            },
+                            {
+                                name: 'Meet the supervisor',
+                                done: false,
+                                archive: false
+                            },
+                            {
+                                name: 'Pull the code base',
+                                done: true,
+                                archive: false
+                            }
+                        ]
+                    }
+                }
+            }
+        })
+    </script>
+</dom-module>

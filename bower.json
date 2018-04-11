@@ -1,0 +1,29 @@
+{
+  "name": "ToDoList",
+  "description": "To-do list app with polymer 2.x",
+  "main": "",
+  "keywords": [
+    "to-do",
+    "list"
+  ],
+  "authors": [
+    "Lap"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.6.0",
+    "paper-checkbox": "PolymerElements/paper-checkbox#^2.0.2"
+  },
+  "resolutions": {
+    "polymer": "^2.6.0",
+    "webcomponentsjs": "^v1.1.0"
+  }
+}
